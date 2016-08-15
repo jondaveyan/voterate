@@ -2,13 +2,10 @@
 <head>
     @include('includes.head')
 </head>
-<body>
-<header id="header" class="">
-    @include('layouts.header')
-</header>
-<section>
+<body class="show-menu">
+<div class="container">
     @yield('body')
-</section>
+</div>
 @include('layouts.footer')
 @include('includes.foot')
 </body>
